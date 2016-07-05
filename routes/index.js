@@ -27,7 +27,7 @@ router.post('/signup', function(req, res, next){
     password: req.body.password,
     phone: req.body.phone,
     image_url: req.body.image_url,
-    profile_id: Number
+    // profile_id: Number
   });
 
   newUser.save(function(err, recipe){
